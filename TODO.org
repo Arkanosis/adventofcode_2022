@@ -1,0 +1,23 @@
+* Langages
+ - [ ] Ada
+ - [ ] Clojure
+ - [ ] Crystal
+ - [ ] C#
+ - [ ] D
+ - [ ] Elixir
+ - [ ] Elm
+ - [ ] F#
+ - [ ] Forth
+ - [ ] Go
+ - [ ] Haskell
+ - [ ] Julia
+ - [ ] Kotlin
+ - [ ] Lua
+ - [ ] NASM
+ - [ ] Nim
+ - [ ] OCaml
+ - [ ] R
+ - [ ] Rust
+ - [ ] Scala
+ - [ ] VHDL (?)
+ - [ ] Zig
