@@ -10,11 +10,13 @@
  - [ ] Forth
  - [ ] Go
  - [ ] Haskell
+ - [ ] Idris
  - [ ] Julia
  - [ ] Kotlin
  - [ ] Lua
  - [ ] NASM
  - [ ] Nim
+ - [ ] Oberon
  - [ ] OCaml
  - [ ] R
  - [ ] Rust

@@ -20,6 +20,10 @@ clean:
 %.input: .session-cookie
 	curl -s --compressed "https://adventofcode.com/$(YEAR)/day/$$(echo $* | sed 's/^0//')/input" -H "Cookie: session=$$(cat .session-cookie)" > "$@"
 
-01.%: 01.%.asm
+01.%: 01.%.vhdl
+	ghdl -a --std=08 --work=aoc_01_1 "$<"
+	ghdl -e --std=08 --work=aoc_01_1 -o "$@" aoc_01_1
+
+02.%: 02.%.asm
 	nasm -f elf64 "$<"
 	ld "$@.o" -o "$@"

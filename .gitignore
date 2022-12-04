@@ -1,3 +1,5 @@
 .session-cookie
 *.example
 *.input
+*.o
+*.cf
